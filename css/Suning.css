@@ -1,0 +1,775 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?74c502');
+    src: url('../fonts/icomoon.eot?74c502#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?74c502') format('truetype'),
+        url('../fonts/icomoon.woff?74c502') format('woff'),
+        url('../fonts/icomoon.svg?74c502#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+em {
+    float: left;
+    font-style: normal;
+}
+
+.headd {
+    background-color: blue;
+}
+
+.head {
+    width: 1268.8px;
+    height: 100px;
+
+}
+
+.head img {
+    display: block;
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.toolbar {
+    height: 36px;
+    background-color: #f5f5f5;
+}
+
+.toolbar .toolbar-left {
+    float: left;
+    margin-left: 40px;
+}
+
+.toolbar .toolbar-left i {
+    font-family: 'icomoon';
+}
+
+.toolbar .toolbar-left div {
+    float: left;
+}
+
+.toolbar .toolbar-left div a {
+    display: block;
+    height: 36px;
+    padding: 0 10px;
+    color: #666;
+    font-size: 12px;
+    line-height: 36px;
+}
+
+.toolbar .toolbar-left div a:hover {
+    color: #FF6600;
+}
+
+.toolbar .toolbar-right {
+    float: left;
+    margin-left: 200px;
+}
+
+.toolbar .toolbar-right div {
+    float: left;
+}
+
+.toolbar .toolbar-right div a {
+    display: block;
+    height: 36px;
+    padding: 0 10px;
+    color: #666;
+    font-size: 12px;
+    line-height: 36px;
+}
+
+.toolbar .toolbar-right div a:hover {
+    color: #FF6600;
+}
+
+.toolbar .toolbar-right div .orange {
+    display: block;
+    color: #FF6600 !important;
+}
+
+.navv {
+    background-color: white;
+}
+
+.nav {
+    height: 110px;
+}
+
+.nav .logo {
+    float: left;
+}
+
+.nav .logo a {
+    display: block;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.nav .logo a img {
+    display: block;
+    height: 90px;
+    width: 190px;
+}
+
+.serchs {
+    float: left;
+    height: 100px;
+    width: 600px;
+    padding-left: 110px;
+}
+
+.serchs .serch {
+    float: right;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.serchs .serch input {
+    float: left;
+    outline: none;
+}
+
+.serchs .serch .button {
+    float: left;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #FF8000;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "MicroSoft YaHei";
+}
+
+.serchs .inputs {
+
+    height: 18px;
+    width: 380px;
+    padding: 9px 10px 9px 25px;
+    border: 2px solid #FF8000;
+    border-right: none;
+    display: block;
+    border-radius: 10px 0 0 10px;
+}
+
+.serchs .serch2 {
+    margin-top: 10px;
+}
+
+.serchs .serch2 a {
+    color: #666;
+}
+
+.serchs .serch2 a:hover {
+    color: #FF8000;
+}
+
+.serchs .serch2 ul {
+    margin-left: 65px;
+    padding-top: 65px;
+}
+
+.serchs .serch2 ul li {
+    float: left;
+    color: #666;
+    font-size: 12px;
+}
+
+.serchs .serch2 ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    margin: 0 8px;
+    margin-top: 3px;
+    background-color: #666;
+}
+
+.nav .serch2 div {
+    float: left;
+    margin-top: 5px;
+}
+
+.nav .serch2 div a {
+    display: block;
+    font-size: 12px;
+    padding: 0 20px 0 10px;
+}
+
+.navv2 {
+    background-color: #fff;
+}
+
+.nav2 {
+    height: 38px;
+    background-color: white;
+}
+
+.nav2 .nav2-left {
+    float: left;
+    height: 100%;
+    width: 200px;
+    border-radius: 12px 12px 0 0;
+    background-color: #FF8000;
+    line-height: 38px;
+
+}
+
+.nav2 .nav2-left a {
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    margin-left: 34px;
+}
+
+.nav2 .nav2-middle {
+    float: left;
+    height: 100%;
+}
+
+.nav2 .nav2-middle img {
+    float: left;
+    height: 38px;
+    width: 110px;
+}
+
+.nav2-middle li {
+    float: left;
+    height: 38px;
+    padding: 0 12px 0 13px;
+    line-height: 38px;
+}
+
+.nav2 .nav2-middle li a {
+    font-family: 'Microsoft Yahei', tahoma, arial, 'Hiragino Sans GB';
+    color: #333;
+    font-weight: 700;
+}
+
+.nav2 .nav2-middle li a:hover {
+    color: #FF8000;
+}
+
+.nav2 .nav2-middle ul .djh {
+    float: left;
+    height: 38px;
+    padding: 0 12px 0 0 !important;
+}
+
+.nav2 .nav2-right {
+    float: right;
+}
+
+.nav2 .nav2-right img {
+    height: 38px;
+    width: 196px;
+}
+
+.bodyy {
+    background-color: #a88ed5;
+}
+
+.body {
+    position: relative;
+    height: 476px;
+    background-color: white;
+}
+
+.body .body-left {
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+.body .cover {
+    float: none;
+    width: 1000px;
+    height: 476px;
+    z-index: 10;
+    background-color: #666;
+    margin-left: 200px;
+    display: none;
+}
+
+.body .body-left span {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.body .body-left ul li {
+    float: left;
+    width: 166px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    padding: 0 6px 0 12px;
+
+}
+
+.body .body-left ul a:hover .cover {
+    display: block;
+    z-index: 10000000000;
+}
+
+.body .body-left ul li a {
+    color: black;
+}
+
+.body .body-left ul li a:hover {
+    color: #FF8000;
+}
+
+.body .body-left ul li img {
+    height: 16px;
+    width: 16px;
+}
+
+.body .body-left ul li em {
+    float: left;
+    margin: 0 1px;
+}
+
+.body .body-middle {
+    float: left;
+    height: 100%;
+}
+
+.body .body-middle img {
+    width: 804px;
+    height: 476px;
+}
+
+.body .body-right {
+    float: right;
+    height: 100%;
+    width: 196px;
+}
+
+.body .body-right .up .one {
+    width: 100%;
+    height: 60px;
+    font-size: 12px;
+}
+
+.body .body-right .up .one .a,
+.b {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.body .body-right .up .one img {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.body .body-right .up .two {
+    font-size: 12px;
+    height: 24px;
+    width: 150px;
+    margin: 10px auto;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #FF8000;
+    color: white;
+}
+
+.body .body-right .up .three {
+    font-size: 12px;
+    height: 24px;
+    width: 150px;
+    margin: 10px auto;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #2933a2;
+    color: #fada99;
+}
+
+.bodyy2 {
+    background-color: #f2f2f2;
+}
+
+.body2 {
+    height: 312px;
+}
+
+.body .body-right .down {
+    width: 100%;
+    height: 340px;
+}
+
+.body .body-right .down .bb {
+    text-align: center;
+    font-size: 14px;
+}
+
+.body .body-right .down .bb img {
+    height: 26px;
+    width: 26px;
+    margin: 12px 20px;
+}
+
+.body .body-right .down .aa img {
+    height: 36px;
+    width: 36px;
+    margin: 6px 14.5px;
+}
+
+.body .body-right .down .aa {
+    text-align: center;
+    font-size: 14px;
+}
+
+.body .body-right .down ul li {
+    float: left;
+    height: 85px;
+    width: 65px;
+}
+
+.body .body-right .down a {
+    color: #333;
+}
+
+.body .body-right .down ul li:hover {
+    box-shadow: grey 2px 2px 6px 1px;
+}
+
+.body .body-right .down a:hover {
+    color: #FF6600;
+}
+
+.body2 {
+    margin-top: 15px;
+}
+
+.body2 .body2-left {
+    float: left;
+}
+
+.body2 .body2-right {
+    float: right;
+}
+
+.body2 .body2-left .body2-left-top {
+    float: left;
+    position: relative;
+    width: 595px;
+    height: 60px;
+    background-color: white;
+    margin-top: 14px;
+    border-radius: 5px 5px 0 0;
+}
+
+.body2 .body2-left .body2-left-top img {
+    width: 106px;
+    height: 30px;
+    margin: 20px 0 20px 20px;
+}
+
+.body2 .body2-right .body2-right-top {
+    float: right;
+    position: relative;
+    width: 595px;
+    height: 60px;
+    background-color: white;
+    margin-top: 14px;
+    border-radius: 5px 5px 0 0;
+}
+
+.body2 .body2-left .body2-left-down {
+
+    width: 595px;
+    height: 238px;
+    margin-top: 74px;
+    background-color: white;
+}
+
+.body2 .body2-left .body2-left-down ul li {
+    float: left;
+    height: 238px;
+    width: 170px;
+    margin-left: 20px;
+}
+
+.body2 .body2-left .body2-left-down ul li img {
+    height: 150px;
+    width: 150px;
+}
+
+.body2 .body2-right .body2-right-top img {
+    float: left;
+    width: 106px;
+    height: 40px;
+    margin: 10px 0 20px 20px;
+}
+
+.body2 .body2-right .body2-right-down {
+
+    width: 595px;
+    height: 238px;
+    margin-top: 74px;
+    background-color: white;
+}
+
+.body2 .body2-right .body2-right-top span {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 24px;
+    padding: 0 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 17px 0 0 10px;
+    color: red;
+}
+
+.rightbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 64px;
+    height: 100%;
+    width: 35px;
+    background-color: #383838;
+}
+
+.rightbar ul {
+    margin-top: 220px;
+}
+
+.rightbar ul .small {
+    width: 35px;
+    height: 30px;
+    font-family: 'icomoon';
+    margin: 10px auto;
+}
+
+.rightbar ul .unsmall {
+    width: 35px;
+    height: 30px;
+    font-family: 'icomoon';
+    margin: 10px auto;
+    margin-top: 110px;
+}
+
+.rightbar ul .big {
+    width: 35px;
+    height: 100px;
+    font-family: 'icomoon';
+    margin: 10px auto;
+}
+
+.rightbar ul li a {
+    width: 35px;
+    height: 30px;
+    display: block;
+    margin: 0px auto;
+    line-height: 30px;
+    text-align: center;
+    color: #bd8c3b;
+    font-size: 18px;
+}
+
+.rightbar ul .big a {
+    width: 35px;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.rightbar ul .big a .shoppingcar {
+    width: 35px;
+}
+
+.rightbar ul .big a .shoppingcar-number {
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    padding: 0 2px;
+    margin: 0 auto;
+    margin-top: 2px;
+    border-radius: 5px;
+    background-color: red;
+    color: #f2f2f2;
+}
+
+.rightbar a:hover {
+    background-color: #ffaa01;
+    color: #f2f2f2;
+}
+
+.leftbar {
+    position: fixed;
+    right: 50%;
+    top: 50%;
+    margin-right: 605px;
+    height: 183px;
+    width: 70px;
+    background-color: red;
+}
+
+.footerr1 {
+    height: 310px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footerr1 .footer1 .promise {
+    height: 73px;
+    padding: 12px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.footerr1 .footer1 .promise ul li {
+    float: left;
+    height: 52.4px;
+    width: 230px;
+    margin-right: 10px;
+}
+
+.footerr1 .footer1 .promise ul li .imagess {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+}
+
+.footerr1 .footer1 .promise ul li .word {
+    height: 50px;
+    line-height: 30px;
+}
+
+.footerr1 .footer1 .promise ul li img {
+    height: 50px;
+    width: 50px;
+}
+
+.footerr1 .footer1 .promise ul li p {
+    height: 24px;
+}
+
+.footerr1 .footer1 .promise ul li .up {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.footerr1 .footer1 .promise ul li .down {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+
+.footerr1 .footer1 .help {
+    margin-top: 20px;
+}
+
+.footerr1 .footer1 .help dl {
+    float: left;
+    height: 160px;
+    width: 210px;
+}
+
+.footerr1 .footer1 .help dl dt {
+    width: 210px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footerr1 .footer1 .help dl dd {
+    width: 210px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+
+}
+
+.footerr1 .footer1 .help dl dd a {
+    color: #000;
+}
+
+.footerr1 .footer1 .help dl dd a:hover {
+    color: #ff6600;
+}
+
+.footerr1 .footer1 .help .shenbian {
+    float: left;
+    width: 80px;
+    height: 160px;
+}
+
+.footerr1 .footer1 .help .shenbian p {
+    height: 35px;
+    width: 90px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footerr1 .footer1 .help .shenbian .abc {
+    font-size: 12px;
+}
+
+.footerr2 {
+    background-color: white;
+    height: 220px;
+}
+
+.footerr2 .footer2 {
+    padding-top: 10px;
+}
+
+.footerr2 .footer2 .deepg a {
+    color: #666;
+}
+
+.footerr2 .footer2 .g a {
+    color: #999;
+}
+
+.footerr2 p {
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.footerr2 p span {
+    margin: 0 5px;
+}
+
+.footerr2 .footer2 .last {
+    margin: 0 auto;
+    width: 1190px;
+    text-align: center;
+}
+
+.footerr2 .footer2 .last img {
+    height: 24px;
+}
